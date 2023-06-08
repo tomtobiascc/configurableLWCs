@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <description>Footer for experience cloud partner portal</description>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="tagline" type="String" label="Tagline text:"/>
+            <property name="phoneNumber" type="String" label="Phone Number:"/>
+            <property name="email" type="String" label="Email:"/>
+            <property name="bottomLinkText1" type="String" label="Bottom Link 1 Text:"/>
+            <property name="bottomLinkURL1" type="String" label="Bottom Link 1 URL:"/>
+            <property name="bottomLinkText2" type="String" label="Bottom Link 2 Text:"/>
+            <property name="bottomLinkURL2" type="String" label="Bottom Link 2 URL:"/>
+            <property name="bottomLinkText3" type="String" label="Bottom Link 3 Text:"/>
+            <property name="bottomLinkURL3" type="String" label="Bottom Link 3 URL:"/>
+            <property name="copyrightText" type="String" label="Copyright Text:"/>
+            <property name="backgroundColor" type="String" label="Background Color (ex: black or rgba(0,0,0,0):"
+                      description="Pass through any CSS color property" default="rgba(0,0,0,0)" />
+            <property name="textColor" type="String" label="Text Color (ex: black or rgba(0,0,0,1):"
+                      description="Pass through any CSS color property" default="black" />
+        </targetConfig>
+    </targetConfigs>
+    <masterLabel>Configurable Footer</masterLabel>
+</LightningComponentBundle>

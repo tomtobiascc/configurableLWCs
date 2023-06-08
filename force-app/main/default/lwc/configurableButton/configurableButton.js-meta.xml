@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <description>Button that admins can place and configure</description>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__FlowScreen</target>
+        <target>lightning__HomePage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__RecordAction</target>
+        <target>lightning__Tab</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="buttonText" type="String" label="Button Text:"/>
+            <property name="buttonUrl" type="String" label="Button Url:"/>
+            <property name="buttonAlign" type="String" label="buttonAlign (left, center, right):"/>
+            <property name="buttonMargin" type="String" label="Button Margin:"/>
+            <property name="buttonBackgroundColor" type="String" label="Button Background Color:"/>
+            <property name="buttonBorderColor" type="String" label="Button Border Color:"/>
+            <property name="buttonTextColor" type="String" label="Button Text Color:"/>
+            <property name="buttonBorderRadius" type="String" label="Button Border Radius (corner rounding):"/>
+        </targetConfig>
+    </targetConfigs>
+    <masterLabel>Configurable Button</masterLabel>
+</LightningComponentBundle>

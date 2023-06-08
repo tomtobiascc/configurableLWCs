@@ -1,0 +1,46 @@
+:host {
+    --textColor: white;
+    --backgroundColor: rgb(40, 122, 159);
+}
+
+.backgroundColor {
+    background-color: var(--backgroundColor,#ffffff);
+}
+
+.textColor {
+    color: var(--textColor,#000000);
+}
+
+.contentWidth {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.horizontalSectionTop {
+    padding: 30px 0 15px 0;
+}
+
+.horizontalSectionMiddle {
+    padding: 15px 0 25px 0;
+}
+
+.horizontalSectionBottom {
+    padding: 0 0 30px 0;
+}
+
+.textPropertiesMedium {
+    text-align: center;
+    font-size: 18px;
+}
+
+.textPropertiesSmaller {
+    font-size: 14px;
+}
+
+.separators {
+    margin: 0 5px 0 5px;
+}
+
+.indicateClickable {
+    cursor: pointer;
+}

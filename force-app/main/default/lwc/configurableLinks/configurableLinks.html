@@ -1,0 +1,55 @@
+<template>
+    <div class="backgroundColor textColor">
+        <div class="contentWidth">
+            <lightning-layout horizontal-align="space" multiple-rows="true">
+                <lightning-layout-item padding="around-small" class="contentHeight">
+                    <div data-url={col1Row1URL} onclick={handleAllLinkClicks}
+                         class="linkSettings indicateClickable">
+                        {col1Row1Label}
+                    </div>
+                    <div data-url={col1Row2URL} onclick={handleAllLinkClicks}
+                         class="linkSettings indicateClickable">
+                        {col1Row2Label}
+                    </div>
+                    <div data-url={col1Row3URL} onclick={handleAllLinkClicks}
+                         class="linkSettings indicateClickable">
+                        {col1Row3Label}
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small" class="contentHeight">
+                    <div data-url={col2Row1URL} onclick={handleAllLinkClicks} class="linkSettings indicateClickable">
+                        {col2Row1Label}
+                    </div>
+                    <div data-url={col2Row2URL} onclick={handleAllLinkClicks} class="linkSettings indicateClickable">
+                        {col2Row2Label}
+                    </div>
+                    <div data-url={col2Row3URL} onclick={handleAllLinkClicks} class="linkSettings indicateClickable">
+                        {col2Row3Label}
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small" class="contentHeight">
+                    <div data-url={col3Row1URL} onclick={handleAllLinkClicks} class="linkSettings indicateClickable">
+                        {col3Row1Label}
+                    </div>
+                    <div data-url={col3Row2URL} onclick={handleAllLinkClicks} class="linkSettings indicateClickable">
+                        {col3Row2Label}
+                    </div>
+                    <div data-url={col3Row3URL} onclick={handleAllLinkClicks} class="linkSettings indicateClickable">
+                        {col3Row3Label}
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small" class="contentHeight">
+                    <div data-url={col4Row1URL} onclick={handleAllLinkClicks} class="linkSettings indicateClickable">
+                        {col4Row1Label}
+                    </div>
+                    <div data-url={col4Row2URL} onclick={handleAllLinkClicks} class="linkSettings indicateClickable">
+                        {col4Row2Label}
+                    </div>
+                    <div data-url={col4Row3URL} onclick={handleAllLinkClicks} class="linkSettings indicateClickable">
+                        {col4Row3Label}
+                    </div>
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </div>
+</template>

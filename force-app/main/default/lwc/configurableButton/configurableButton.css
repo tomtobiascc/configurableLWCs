@@ -1,0 +1,27 @@
+:host {
+    --buttonAlign: left;
+    --buttonMargin: 0px;
+    --buttonBackgroundColor: #00a3af;
+    --buttonBorderColor: #00a3af;
+    --buttonTextColor: #ffffff;
+    --buttonBorderRadius: 3px;
+}
+.divContainer {
+    text-align: var(--buttonAlign, left);
+}
+.configurableButton {
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    height: 40px;
+    padding: 5px 24px;
+    cursor: pointer;
+    border-style: solid;
+
+    margin: var(--buttonMargin, 0px);
+    background-color: var(--buttonBackgroundColor, #00a3af);
+    border-color: var(--buttonBorderColor, #00a3af);
+    color: var(--buttonTextColor,  #ffffff);
+    border-radius: var(--buttonBorderRadius, 3px);
+}

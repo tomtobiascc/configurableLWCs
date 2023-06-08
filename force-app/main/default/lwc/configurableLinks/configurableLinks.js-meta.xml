@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <description>Configurable Links</description>
+    <isExposed>true</isExposed>
+    <masterLabel>Configurable Links</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="col1Row1Label" type="String" label="Column 1 Row 1 Label:"/>
+            <property name="col1Row1URL" type="String" label="Column 1 Row 1 URL:"/>
+            <property name="col1Row2Label" type="String" label="Column 1 Row 2 Label:"/>
+            <property name="col1Row2URL" type="String" label="Column 1 Row 2 URL:"/>
+            <property name="col1Row3Label" type="String" label="Column 1 Row 3 Label:"/>
+            <property name="col1Row3URL" type="String" label="Column 1 Row 3 URL:"/>
+            <property name="col2Row1Label" type="String" label="Column 2 Row 1 Label:"/>
+            <property name="col2Row1URL" type="String" label="Column 2 Row 1 URL:"/>
+            <property name="col2Row2Label" type="String" label="Column 2 Row 2 Label:"/>
+            <property name="col2Row2URL" type="String" label="Column 2 Row 2 URL:"/>
+            <property name="col2Row3Label" type="String" label="Column 2 Row 3 Label:"/>
+            <property name="col2Row3URL" type="String" label="Column 2 Row 3 URL:"/>
+            <property name="col3Row1Label" type="String" label="Column 3 Row 1 Label:"/>
+            <property name="col3Row1URL" type="String" label="Column 3 Row 1 URL:"/>
+            <property name="col3Row2Label" type="String" label="Column 3 Row 2 Label:"/>
+            <property name="col3Row2URL" type="String" label="Column 3 Row 2 URL:"/>
+            <property name="col3Row3Label" type="String" label="Column 3 Row 3 Label:"/>
+            <property name="col3Row3URL" type="String" label="Column 3 Row 3 URL:"/>
+            <property name="col4Row1Label" type="String" label="Column 4 Row 1 Label:"/>
+            <property name="col4Row1URL" type="String" label="Column 4 Row 1 URL:"/>
+            <property name="col4Row2Label" type="String" label="Column 4 Row 2 Label:"/>
+            <property name="col4Row2URL" type="String" label="Column 4 Row 2 URL:"/>
+            <property name="col4Row3Label" type="String" label="Column 4 Row 3 Label:"/>
+            <property name="col4Row3URL" type="String" label="Column 4 Row 3 URL:"/>
+            <property name="backgroundColor" type="String" label="Background Color (ex: black or rgba(0,0,0,0):"
+                      description="Pass through any CSS color property" default="rgba(0,0,0,0)" />
+            <property name="textColor" type="String" label="Text Color (ex: black or rgba(0,0,0,1):"
+                      description="Pass through any CSS color property" default="black" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

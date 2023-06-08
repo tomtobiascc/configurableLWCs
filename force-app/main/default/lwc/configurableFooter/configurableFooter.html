@@ -1,0 +1,45 @@
+<template>
+    <div class="backgroundColor textColor">
+        <div class="contentWidth">
+            <div class="horizontalSectionTop textPropertiesMedium">
+                {tagline}
+            </div>
+            <div class="horizontalSectionMiddle">
+                <lightning-layout horizontal-align="space" multiple-rows="true">
+                    <lightning-layout-item padding="around-small">
+                        <lightning-icon
+                            icon-name="utility:call"
+                            alternative-text="Phone Number"
+                            title="Phone Number"
+                            size="small"
+                            variant="inverse"
+                        ></lightning-icon>
+                        <span class="slds-var-m-left_medium textPropertiesMedium"
+                        >{phoneNumber}</span>
+                    </lightning-layout-item>
+                    <lightning-layout-item padding="around-small">
+                        <lightning-icon
+                            icon-name="utility:email"
+                            alternative-text="Email"
+                            title="Email"
+                            size="small"
+                            variant="inverse"
+                        ></lightning-icon>
+                        <span class="slds-var-m-left_medium textPropertiesMedium"
+                        >{email}</span>
+                    </lightning-layout-item>
+                </lightning-layout>
+            </div>
+            <div>
+                <span data-url={bottomLinkURL1} onclick={handleAllLinkClicks} class="textPropertiesSmaller indicateClickable">{bottomLinkText1}</span>
+                <span class="separators">|</span>
+                <span data-url={bottomLinkURL2} onclick={handleAllLinkClicks} class="textPropertiesSmaller indicateClickable">{bottomLinkText2}</span>
+                <span class="separators">|</span>
+                <span data-url={bottomLinkURL3} onclick={handleAllLinkClicks} class="textPropertiesSmaller indicateClickable">{bottomLinkText3}</span>
+            </div>
+            <div class="horizontalSectionBottom textPropertiesSmaller">
+                &copy; {copyrightYear} {copyrightText}
+            </div>
+        </div>
+    </div>
+</template>

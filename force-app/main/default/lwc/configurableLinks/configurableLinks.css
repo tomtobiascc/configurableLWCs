@@ -1,0 +1,25 @@
+:host {
+    --linkMargin: 20px 0;
+    --textColor: black;
+    --backgroundColor: rgba(0,0,0,0);
+}
+.backgroundColor {
+    background-color: var(--backgroundColor,#ffffff);
+}
+.textColor {
+    color: var(--textColor,#000000);
+}
+.contentWidth {
+    width: 100%;
+    margin: auto;
+}
+.contentHeight {
+    /*height: 300px;*/
+}
+.linkSettings {
+    font-size: 18px;
+    margin: var(--linkMargin);
+}
+.indicateClickable {
+    cursor: pointer;
+}
