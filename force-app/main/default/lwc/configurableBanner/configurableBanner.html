@@ -1,22 +1,7 @@
 <!--
  - Created by tomtobias on 6/8/23.
  -->
+
+<!-- Configurable Banner -->
 <template>
-    <div class="enclosingDiv">
-        <div class="divContainer">
-            <p class="tagline">{tagline}</p>
-            <div class="title">{title}</div>
-            <p class="subtitle">{subtitle}</p>
-            <template if:false={hideButton}>
-                <button class="configurableButton" onclick={handleClick}>
-                    {buttonText}
-                </button>
-            </template>
-            <template if:false={hideButton2}>
-                <button class="configurableButton2" onclick={handleClick2}>
-                    {button2Text}
-                </button>
-            </template>
-        </div>
-    </div>
 </template>
